@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>needlinux-Fedora</title>
+    
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="description" content="Bootstrap 4">
+    <meta name="author" content="naem azam at 3rd Wave Media">    
+    <link rel="shortcut icon" href="favicon.ico"> 
+    
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome JS-->
+    <script defer src="assets/fontawesome/js/all.min.js"></script>
+    
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css">
+
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/theme.css">
+
+</head> 
+
+<body class="docs-page">    
+    <header class="header fixed-top">	    
+        <div class="branding docs-branding">
+            <div class="container-fluid position-relative py-2">
+                <div class="docs-logo-wrapper">
+					<button id="docs-sidebar-toggler" class="docs-sidebar-toggler docs-sidebar-visible mr-2 d-xl-none" type="button">
+	                    <span></span>
+	                    <span></span>
+	                    <span></span>
+	                </button>
+	                <div class="site-logo"><a class="navbar-brand" href="index.html"><img class="logo-icon mr-2" src="assets/images/needlinux.png" alt="logo"><span class="logo-text">Need<span class="text-alt">Linux</span></span></a></div>    
+                </div><!--//docs-logo-wrapper-->
+	            <div class="docs-top-utilities d-flex justify-content-end align-items-center">
+	                <div class="top-search-box d-none d-lg-flex">
+		                <form class="search-form">
+				            <input type="text" placeholder="Search the docs..." name="search" class="form-control search-input">
+				            <button type="submit" class="btn search-btn" value="Search"><i class="fas fa-search"></i></button>
+				        </form>
+	                </div>
+	
+					<ul class="social-list list-inline mx-md-3 mx-lg-5 mb-0 d-none d-lg-flex">
+						<li class="list-inline-item"><a href="#"><i class="fab fa-github fa-fw"></i></a></li>    
+		                <li class="list-inline-item"><a href="#"><i class="fab fa-linux fa-fw"></i></a></li>
+		                <li class="list-inline-item"><a href="#"><i class="fab fa-ubuntu fa-fw"></i></a></li>
+		            </ul><!--//social-list-->
+		            <a href="https://need-linux.github.io/learning/menu.html" class="btn btn-primary d-none d-lg-flex">Menu</a>
+	            </div><!--//docs-top-utilities-->
+            </div><!--//container-->
+        </div><!--//branding-->
+    </header><!--//header-->
+    
+    <div class="docs-wrapper">
+	    <div id="docs-sidebar" class="docs-sidebar">
+		    <div class="top-search-box d-lg-none p-3">
+                <form class="search-form">
+		            <input type="text" placeholder="Search the docs..." name="search" class="form-control search-input">
+		            <button type="submit" class="btn search-btn" value="Search"><i class="fas fa-search"></i></button>
+		        </form>
+            </div>
+		    <nav id="docs-nav" class="docs-nav navbar">
+			    <ul class="section-items list-unstyled nav flex-column pb-3">
+				    <li class="nav-item section-title"><a class="nav-link scrollto active" href="#section-1"><span class="theme-icon-holder mr-2"><i class="fab fa-ubuntu"></i></span>Introduction</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-1-1">What is Fedora Linux?</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-1-2">Fedora Linux Features 1.2</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-1-3">Should I Use Fedora Linux?</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-1-4">Which Image Should I Download?</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-1-5">Which Desktop Environment and (Meta)Packages to Choose During Installation:</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-1-6">Video Tutorial and Practice</a></li>
+				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-2"><span class="theme-icon-holder mr-2"><i class="fas fa-arrow-down"></i></span>Installation</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-2-1">Installation</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-2-2">Section Item 2.2</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-2-3">Section Item 2.3</a></li>
+				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-3"><span class="theme-icon-holder mr-2"><i class="fas fa-cogs"></i></span>Basic Configaration</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-3-1">Section Item 3.1</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-3-2">Section Item 3.2</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-3-3">Section Item 3.3</a></li>
+				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-4"><span class="theme-icon-holder mr-2"><i class="fas fa-terminal"></i></span>Basic Commands</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-4-1">Section Item 4.1</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-4-2">Section Item 4.2</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-4-3">Section Item 4.3</a></li>
+				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-5"><span class="theme-icon-holder mr-2"><i class="fas fa-tools"></i></span>Trobleshooting</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-5-1">Core system issues</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-5-2">Workstation (GNOME) issues</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-5-3">Other software issues</a></li>
+				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-6"><span class="theme-icon-holder mr-2"><i class="fas fa-laptop-code"></i></span>Development</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-6-1"></a>Start a project</li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-6-2">Get tools</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-6-3">Languages & datebases</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-6-4">Deploy and distribute</a></li>
+				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-7"><span class="theme-icon-holder mr-2"><i class="fas fa-tablet-alt"></i></span>Top Uses</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-7-1"> Created for Developers and Hobbyists</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-7-2">Sleek User Interface</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-7-3"> A Complete Open-Source Toolbox</a></li>
+				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-8"><span class="theme-icon-holder mr-2"><i class="fas fa-book-reader"></i></span>Resources</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-8-1">Section Item 8.1</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-8-2">Section Item 8.2</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-8-3">Section Item 8.3</a></li>
+				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-9"><span class="theme-icon-holder mr-2"><i class="fas fa-lightbulb"></i></span>FAQs</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-9-1">Installation issues</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-9-2">KDE issues</a></li>
+			    </ul>
+
+		    </nav><!--//docs-nav-->
+	    </div><!--//docs-sidebar-->
+	    <div class="docs-content">
+		    <div class="container">
+			    <article class="docs-article" id="section-1">
+				<header class="docs-header">
+					    <h1 class="docs-heading">Introduction <span class="docs-time">Last updated: 2022-06-01</span></h1>
+	  <p>Fedora creates an innovative, free, and open source platform for hardware, clouds, and containers that enables software developers and community members to build tailored solutions for their users.</p>
+
+<section class="docs-section" id="item-1-1">
+						<h2 class="section-heading">What is Fedora Linux?</h2>
+						<p>Fedora is a Linux based operating system which provides innovative, free, and open-source platform for hardware, pc, laptop, cloud, and containers. Fedora is also called a Linux distribution where it uses the Linux kernel as the core of the operating system.</p>
+						<img src="assets/images/home.jpeg" />
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-1-2">
+						<h2 class="section-heading">Fedora Linux Features</h2>
+<p>Fedora creates an innovative, free, and open source platform for hardware, clouds, and containers that enables software developers and community members to build tailored solutions for their users. </p>
+<p>Fedora Workstation is a polished, easy to use operating system for laptop and desktop computers, with a complete set of tools for developers and makers of all kinds. </p>
+<p>Fedora IoT provides a trusted open source platform as a strong foundation for IoT ecosystems.  </p>
+<p>Fedora Server is a powerful, flexible operating system that includes the best and latest datacenter technologies. It puts you in control of all your infrastructure and services. </p>
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-1-3">
+						<h2 class="section-heading">Should I Use Fedora Linux?</h2>
+						<p>These are some of the major reasons why you should use Fedora. It might not be popular as Ubuntu or comes with advanced tools by default as Kali Linux or user-friendly as Linux Mint, but it has a solid base when it comes to latest features and security.</p>
+						<p>Fedora enjoys many benefits thanks to the communities backing it and a good example is how readily Fedora will work on PCs, with printers, scanners, cameras, etc. from different vendors straight out of the box. If you want a Linux distro that wouldn’t give you any compatibility headaches then Fedora is a good choice.</p>
+					</section>
+					
+					<section class="docs-section" id="item-1-4">
+						<h2 class="section-heading">Which Image Should I Download?</h2>
+						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
+					</section>
+					
+					<section class="docs-section" id="item-1-5">
+						<h2 class="section-heading">Which Desktop Environment and (Meta)Packages to Choose During Installation:</h2>
+						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
+					</section>
+					
+					<section class="docs-section" id="item-1-6">
+						<h2 class="section-heading">Video Tutorial and Practice </h2>
+						<p></p>
+					</section>
+	
+				    <!--//section-->
+					
+			    </article>
+			    
+			    <article class="docs-article" id="section-2">
+				    <header class="docs-header">
+					    <h1 class="docs-heading">Installation</h1>
+					    <section class="docs-intro">
+						    <p>Section intro goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque finibus condimentum nisl id vulputate. Praesent aliquet varius eros interdum suscipit. Donec eu purus sed nibh convallis bibendum quis vitae turpis. Duis vestibulum diam lorem, vitae dapibus nibh facilisis a. Fusce in malesuada odio.</p>
+						</section><!--//docs-intro-->
+				    </header>
+				     <section class="docs-section" id="item-2-1">
+						<h2 class="section-heading">Section Item 2.1</h2>
+						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-2-2">
+						<h2 class="section-heading">Section Item 2.2</h2>
+						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-2-3">
+						<h2 class="section-heading">Section Item 2.3</h2>
+						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
+					</section><!--//section-->
+			    </article><!--//docs-article-->
+			    
+			    
+			    <article class="docs-article" id="section-3">
+				    <header class="docs-header">
+					    <h1 class="docs-heading">Basic Configaration</h1>
+					    <section class="docs-intro">
+						    <p>Section intro goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque finibus condimentum nisl id vulputate. Praesent aliquet varius eros interdum suscipit. Donec eu purus sed nibh convallis bibendum quis vitae turpis. Duis vestibulum diam lorem, vitae dapibus nibh facilisis a. Fusce in malesuada odio.</p>
+						</section><!--//docs-intro-->
+				    </header>
+				     <section class="docs-section" id="item-3-1">
+						<h2 class="section-heading">Section Item 3.1</h2>
+						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-3-2">
+						<h2 class="section-heading">Section Item 3.2</h2>
+						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-3-3">
+						<h2 class="section-heading">Section Item 3.3</h2>
+						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
+					</section><!--//section-->
+			    </article><!--//docs-article-->
+			    
+			    <article class="docs-article" id="section-4">
+				    <header class="docs-header">
+					    <h1 class="docs-heading">Basic Commands</h1>
+					    <section class="docs-intro">
+						    <p>Section intro goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque finibus condimentum nisl id vulputate. Praesent aliquet varius eros interdum suscipit. Donec eu purus sed nibh convallis bibendum quis vitae turpis. Duis vestibulum diam lorem, vitae dapibus nibh facilisis a. Fusce in malesuada odio.</p>
+						</section><!--//docs-intro-->
+				    </header>
+				     <section class="docs-section" id="item-4-1">
+						<h2 class="section-heading">Section Item 4.1</h2>
+						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-4-2">
+						<h2 class="section-heading">Section Item 4.2</h2>
+						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-4-3">
+						<h2 class="section-heading">Section Item 4.3</h2>
+						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
+					</section><!--//section-->
+			    </article><!--//docs-article-->
+			    
+			    <article class="docs-article" id="section-5">
+				    <header class="docs-header">
+					    <h1 class="docs-heading">Trobleshooting</h1>
+					    <section class="docs-intro">
+						    <p>This section documents common bugs in Fedora 32 and, if available, fixes or workarounds for these problems. If you find your problem in this page, please do not file a bug for it, unless otherwise instructed. Where appropriate, a reference to the current bug(s) in Bugzilla is included.</p>
+						</section><!--//docs-intro-->
+				    </header>
+				     <section class="docs-section" id="item-5-1">
+						<h2 class="section-heading">Core system issues</h2>
+						<h3>Package fedora-obsolete-packages is no longer installable, and is removed when upgrading to Fedora 32</h3>
+		 			<p>The behaviour of the special package called Package-x-generic-16.pngfedora-obsolete-packages has been tweaked in Fedora 32 so that it can no longer be installed. If you currently have it installed, on upgrade to Fedora 32, it will be removed: the packaging system will show it being removed as a "dependent package", which is not really accurate but a limitation of how package removals are calculated. The removal is normal and expected and nothing to worry about.This is the package link:<a href="https://src.fedoraproject.org/rpms/fedora-obsolete-packages">fedora-obsolete-packages</a><img src="assets/images/package.png" /></p>
+					<p>The package's only purpose is to obsolete packages that were retired and which would otherwise cause dependency resolution problems on upgrades. The package accomplishes this purpose simply by being available in the repositories; it never needs to actually be installed. Any attempt to install this package will end with "Nothing to do" message, but don't worry: this is not an error.</p>
+				</section><!--//section-->
+					
+					<section class="docs-section" id="item-5-2">
+						<h2 class="section-heading">Workstation (GNOME) issues</h2>
+						<h3>Changing default keyboard layout gets reflected during disk decryption only after next kernel update</h3>
+						<p>If you change your default keyboard layout in GNOME Settings, it will be changed immediately in your system, but it will not be changed immediately in the disk decryption dialog that is shown during boot (if you use disk encryption). The old keyboard layout will still be used for that disk decryption dialog until a new kernel is installed, only then it will be switched to the newly selected keyboard layout.</p>
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-5-3">
+							<h2 class="section-heading">Other software issues</h2>
+							<h3>Trying to scroll with mouse wheel in inactive Firefox window results in back/forward instead</h3>
+						<p>When using the Wayland backend for Firefox, a known issue in GTK+ means that the Alt modifier key is still considered active in Firefox after you switch away from the window using the Alt+Tab ⇆ shortcut. So if you then move the mouse over the inactive Firefox window (but do not click to activate it) and scroll the wheel, Firefox will treat this as holding down the Alt key and scrolling the wheel. By default, in Firefox, this is mapped to going 'back' and 'forward' in the page history, so instead of the page scrolling, you will rapidly move backwards or forwards through your page history.</p>
+						<p>If you find yourself frequently triggering this unwanted behaviour, you can work around it by navigating to about:config in Firefox and setting the value mousewheel.with_alt.action to 1 (the integer value one). This sets the action when holding Alt and scrolling the wheel to be the same as when scrolling the wheel normally (it will scroll the page).</p>
+					</section><!--//section-->
+			    </article><!--//docs-article-->
+			    
+			    
+		        <article class="docs-article" id="section-6">
+				    <header class="docs-header">
+					    <h1 class="docs-heading">Development</h1>
+					    <section class="docs-intro">
+						    <p>From mobile apps to web; from desktop GUIs to CLI tools. Create it all easily with Fedora.</p>
+						</section><!--//docs-intro-->
+				    </header>
+				     <section class="docs-section" id="item-6-1">
+						<h2 class="section-heading">Start a project</h2>
+						<p>Please click the link :<a href="https://developer.fedoraproject.org/start.html" target="_blank">Start a project</a> and you will see the following image.Prepare your environment with DevAssistant and run it with Docker and Vagrant<img src="assets/images/s.png" /></p>
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-6-2">
+						<h2 class="section-heading">Get tools</h2>
+						<p>Please click the link :<a href="https://developer.fedoraproject.org/tools.html" target="_blank">Get tools</a> and you will see the following image<img src="assets/images/g.png" /></p>
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-6-3">
+							<h2 class="section-heading">Languages & datebases</h2>
+						<p>Please click the link :<a href="https://developer.fedoraproject.org/tech.html" target="_blank">Languages & datebases</a> and you will see the following image<img src="assets/images/l.png" /></p>
+						<h2 class="section-heading">Deploy and dietribute</h2>
+						<p>Please click the link :<a href="https://developer.fedoraproject.org/deployment.html" target="_blank">Deploy and dietribute</a> and you will see the following image<img src="assets/images/d.png" /></p>
+					</section><!--//section-->
+			    </article><!--//docs-article-->
+			    
+			    
+			    <article class="docs-article" id="section-7">
+				    <header class="docs-header">
+					    <h1 class="docs-heading">Top Uses</h1>
+					    <section class="docs-intro">
+						    <p>Here's a look at the main uses of Fedora, who it's for, and some of its features</p>
+						</section><!--//docs-intro-->
+				    </header>
+				     <section class="docs-section" id="item-7-1">
+						<h2 class="section-heading">Created for Developers and Hobbyists</h2>
+						<p>You do not have to meet certain credentials or qualifications to gain the respect of Fedora. This distro is powerful, user-friendly, and reliable at the same time and will adapt to the hardware and firmware of your desktop or laptop computer. All that Fedora asks from you is your heart and interest, not your resume credentials.</p>
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-7-2">
+						<h2 class="section-heading">Sleek User Interface</h2>
+						<p>The GNOME 3 desktop environment that houses Fedora fades the illusion that this distro is complicated to use. Moreover, the same GNOME desktop environment was created under a unique developmental approach. It caters to active user feedback from a running system. Therefore, you can report any bugs you face at any time to improve your user experience. The interface also minimizes distractions and improves user concentration or output.</p>
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-7-3">
+							<h2 class="section-heading"> Containerize, Hack, and Deploy</h2>
+						<p>Fedora comes with Image support for a built-in OCI (Open Container Initiative). Therefore, its users can deploy containerized applications or containerize user-defined applications hosted on their Fedora Workstation.</p>
+					</section><!--//section-->
+			    </article><!--//docs-article-->
+			    
+			    
+			    <article class="docs-article" id="section-8">
+				    <header class="docs-header">
+					    <h1 class="docs-heading">Resources</h1>
+					    <section class="docs-intro">
+						    <p>The following resources contain additional information on Fedora Linux. Please use them to get more in-depth knowledge on this.</p>
+						</section><!--//docs-intro-->
+				    </header>
+				     <section class="docs-section" id="item-8-1">
+						<h2 class="section-heading">Section Item 8.1</h2>
+						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-8-2">
+						<h2 class="section-heading">Section Item 8.2</h2>
+						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-8-3">
+							<h2 class="section-heading">Section Item 8.3</h2>
+						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
+					</section><!--//section-->
+			    </article><!--//docs-article-->
+			    
+			    
+			    <article class="docs-article" id="section-9">
+				    <header class="docs-header">
+					    <h1 class="docs-heading">FAQs</h1>
+					    <section class="docs-intro">
+						    <p>This section looks at two kinds of problems and how to solve them</p>
+						</section><!--//docs-intro-->
+				    </header>
+				     <section class="docs-section" id="item-9-1">
+						<h2 class="section-heading">Installation issues <small>Installation</small></h2>
+						<h5 class="pt-3"><i class="fas fa-question-circle mr-1"></i>Fedora 32 Workstation (ppc64le) Live image failed to boot</h5>
+						<p>Fedora 32 Workstation media for PowerPC 64 LE is known to have an issue with booting up because default kernel and initram are 32-bit instead of 64-bit. The workaround is to edit the grub boot config at Petitboot prompt and replace the ppc with ppc64 for vmlinuz and initrd.img</p>
+						<h5 class="pt-3"><i class="fas fa-question-circle mr-1"></i>Memtest present on installation media often reboots/freezes</h5>
+						<p>Fedora installation media contain a "Run memory test" boot option that runs Memtest tool to check your memory for errors. Due to a bug, this tool often either freezes or reboots almost immediately. It might be particular to just certain hardware, but we have numerous reports of this happening. If you need to check your memory for errors, it's recommended to use a different source to create a Memtest bootable medium, and avoid using Fedora installation media for this.</p>
+						<h5 class="pt-3"><i class="fas fa-question-circle mr-1"></i>Fedora Media Writer does not work on macOS 10.15 (Catalina)</h5>
+						<p>Fedora Media Writer, the official tool for writing Fedora images to USB stick, is reported to <a href="https://github.com/FedoraQt/MediaWriter/issues/217">not work with macOS 10.15 (Catalina).</a>It appears to work, but does not actually write anything to the USB stick. There is no known workaround to make FMW work in this scenario at present. Alternative options include running FMW on a Linux or Windows system if you have access to one,<a href="https://docs.fedoraproject.org/en-US/quick-docs/creating-and-using-a-live-installation-image/#_using_a_direct_write_method">using the command-line dd utility instead</a>  or using a third-party tool. One user in the issue thread recommends <a href="http://www.microsoft.com/">a tool called Etcher:</a>Fedora has not currently officially reviewed this tool and so cannot officially recommend it, but a cursory review of the tool description suggests it at least ought to write Fedora images correctly.</p>
+
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-9-2">
+						<h2 class="section-heading">KDE issues <small>KDE</small></h2>
+						<h5 class="pt-3"><i class="fas fa-question-circle mr-1"></i>User switching/re-logging in KDE might often lead to a black/frozen screen</h5>
+						<p>We've identified several issues with user switching in KDE, which might lead to a black/frozen login screen:</p>
+						<ul>
+							<li>Log out and immediately try to log back in using the same user.</li>
+							<li>Switch users (i.e. keep the current session running), and immediately try to log back in using the same user.</li>
+							<li>Switch users, log in as a second user, and then log out the second user.</li>
+						</ul>
+						<p>The issue might occur just on certain systems and might depend on timing of your actions.</p>
+						<h5 class="pt-3"><i class="fas fa-question-circle mr-1"></i>KDE login screen cannot handle expired passwords</h5>
+						<p>If your user password is configured to expire, you will not be able to log in using KDE login screen when it does. The login screen doesn't allow expired password to be changed (renewed). This is not a bug but a missing feature, it's not a regression from the past.</p>
+
+						</section><!--//section-->
+			    </article><!--//docs-article-->
+
+			    <footer class="footer">
+				    <div class="container text-center py-5">
+				        <small class="copyright">Designed with <i class="fas fa-heart" style="color: #fb866a;"></i> by <a class="theme-link" href="http://naemazam.github.io" target="_blank">Naem Azam</a> for developers</small>
+				        <ul class="social-list list-unstyled pt-4 mb-0">
+						    <li class="list-inline-item"><a href="#"><i class="fab fa-github fa-fw"></i></a></li> 
+				            <li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
+				            <li class="list-inline-item"><a href="#"><i class="fab fa-slack fa-fw"></i></a></li>
+				            <li class="list-inline-item"><a href="#"><i class="fab fa-product-hunt fa-fw"></i></a></li>
+				            <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f fa-fw"></i></a></li>
+				            <li class="list-inline-item"><a href="#"><i class="fab fa-instagram fa-fw"></i></a></li>
+				        </ul><!--//social-list-->
+				    </div>
+			    </footer>
+		    </div> 
+	    </div>
+    </div><!--//docs-wrapper-->
+    
+   
+       
+    <!-- Javascript -->          
+    <script src="assets/plugins/jquery-3.4.1.min.js"></script>
+    <script src="assets/plugins/popper.min.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>  
+    
+    
+    <!-- Page Specific JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script src="assets/js/highlight-custom.js"></script> 
+    <script src="assets/plugins/jquery.scrollTo.min.js"></script>
+    <script src="assets/plugins/lightbox/dist/ekko-lightbox.min.js"></script> 
+    <script src="assets/js/docs.js"></script> 
+
+</body>
+</html> 
+
